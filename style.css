@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Poppins&family=Pushster&family=Roboto:wght@700&family=Staatliches&display=swap');
+
+body{
+    margin: 0%;
+}
+
+h1{
+    margin:0%;
+    font-size:30vh;
+    font-family: 'Pushster', cursive;
+}
+
+h2{
+    
+    font-family: 'Pushster', cursive;
+    
+}
+
+#Derecha{
+    align-items: left;
+}
+
+.Seccion{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items:center;
+    justify-content: center;
+}
+
+.QuienSomosTabla td{
+    border-collapse: separate;
+    margin: 80px;
+    padding: 50px;
+    vertical-align: top;
+    padding-bottom: 0px;
+}
+
+.descripcion{
+    margin: 10px;
+    padding-top: 10px;
+}
+
+.Gustos td{
+    font-size: 3vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Gustos span{
+    margin-top: 10px;
+    font-size: 5vh;
+    font-family: 'Anton', sans-serif;
+}
+
+.subtitulo{
+    font-size: 20vh;
+}
+
+.iconosTabla td{
+    padding-bottom: 100px;
+}
+
+.nombres{
+    font-size: 5vh;
+    font-family: 'Anton', sans-serif;
+}
+
+.descripcion{
+    font-size: 3vh;
+    font-family: 'Poppins', sans-serif;
+    vertical-align: middle;
+}
+
+.frase{
+    font-size: 15vh;
+    margin: 5%;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+#Frase{
+    background-color: white;
+}
+
+#QuienSomos{
+    background-image: url("https://live.staticflickr.com/3581/3424800816_a32612d4ae_c.jpg");
+    background-color: #ffeeb06b;
+    background-blend-mode: soft-light;
+}
+
+#Equipo{
+    background-image: url("https://live.staticflickr.com/5206/5320215677_1de55ea619_c.jpg");
+    min-height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #612c20;
+    background-blend-mode: soft-light;
+}
+
+
+.GustosConocenos td{
+    border-collapse: separate;
+    margin: 80px;
+    padding: 80px;
+    vertical-align: top;
+    padding-bottom: 5px;
+}
+
+#ConocenosPic{
+    font-size: 5vh;
+}
+
+.fotosPerfil{
+    width:23vh;
+    height:23vh;
+}
+
+.iconos{
+    width:8vh;
+    height: 8vh;
+}
+
+
+
+/* Pokebola */
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .pokebola {
+      position: relative;
+      width: 25vh;
+      height: 25vh;
+      background-color: #FFF;
+      border: 5px solid #000;
+      border-radius: 50%;
+      box-shadow: inset -10px 10px 0 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      animation: gira 4s infinite;
+      margin: 20px 5%;
+  }
+  .pokebola:before, .pokebola:after {
+      content: "";
+      position: absolute;
+  }
+  .pokebola:before {
+      background-color: #EF4036;
+      width: 100%;
+      height: 50%;
+  }
+  .pokebola:after {
+      top: calc(50% - 10px);
+      width: 100%;
+      height: 20px;
+      background-color: #000;
+  }
+  .pokebola-botao {
+      width: 8.7vh;
+      height: 8.7vh;
+      background-color: #FFF;
+      border: 1.5vh solid #000;
+      border-radius: 50%;
+      position: absolute;
+      top: calc(50% - 3.8vh);
+      left: calc(50% - 3.8vh);
+      z-index: 10;
+  }
+  .pokebola-botao:before {
+      content: "";
+      position: absolute;
+      top: calc(50% - 10px);
+      left: calc(50% - 10px);
+      width: 20px;
+      height: 20px;
+      background-color: #FFF;
+      border: 3px solid #000;
+      border-radius: 50%;
+      z-index: 10;
+  }
+  
+  @keyframes gira {
+      0% { transform: rotate(-45deg); }
+      50% { transform: rotate(45deg); }
+      100% { transform: rotate(-45deg); }
+  }
